@@ -5,7 +5,7 @@ html {
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
   background-color: #f8eded;
-  color: #134b70;
+  color: #213869;
 }
 
 .heading {
@@ -82,7 +82,7 @@ html {
   padding: 10px;
   font-size: 16px;
   border: none;
-  border-bottom: 1px solid #134b70;
+  border-bottom: 1px solid #213869;
   background-color: transparent;
 }
 .form-group input:focus {
@@ -93,7 +93,7 @@ html {
   outline: none;
   border: none;
   padding: 0.7rem 1rem;
-  background-color: #134b70;
+  background-color: #213869;
   color: white;
   border-radius: 10px;
   width: fit-content;
