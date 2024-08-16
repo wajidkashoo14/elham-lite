@@ -1,0 +1,141 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  background-color: #f8eded;
+  color: #134b70;
+}
+
+.heading {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  min-height: 80vh;
+  margin: 0 2rem;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.main-image {
+  width: 50%;
+  height: 80vh;
+  object-fit: cover;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.half-images {
+  display: flex;
+  flex-direction: column;
+}
+
+.half-image {
+  width: 200px;
+  height: 100%;
+  object-fit: cover;
+  height: 40vh;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.right-section {
+  width: 50%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.right-section h2 {
+  font-size: 2rem;
+  width: 50%;
+  font-weight: 500;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-size: 18px;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.form-group input {
+  width: 70%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-bottom: 1px solid #134b70;
+  background-color: transparent;
+}
+.form-group input:focus {
+  outline: 0;
+}
+
+.btn {
+  outline: none;
+  border: none;
+  padding: 0.7rem 1rem;
+  background-color: #134b70;
+  color: white;
+  border-radius: 10px;
+  width: fit-content;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+.social-icons {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.social-icons a {
+  margin: 0 15px;
+  font-size: 24px;
+  text-decoration: none;
+  color: #333;
+}
+
+.social-icons a:hover {
+  color: #0077b5; /* Change color on hover */
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    display: block;
+    margin: 0 5px;
+  }
+  .left-section {
+    margin: 0;
+    margin-top: 1rem ;
+  }
+  .form-group input {
+    width: 100%;
+    padding: .5rem;
+  }
+  .right-section {
+    width: 100%;
+    padding: .5rem;
+  }
+  .right-section h2 {
+    font-size: 1.1rem;
+    width: 100%;
+  }
+}
